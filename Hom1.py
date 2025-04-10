@@ -5,7 +5,6 @@
 filename = 'phonebook.txt'
 
 def work_with_phone_book():
-    
     choice = show_menu()
     phone_book = read_txt(filename)  
     while choice !=7: 
